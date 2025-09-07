@@ -1,0 +1,14 @@
+{
+  "data_file": "data/ohlc_clean.csv",
+  "timezone": "Asia/Kolkata",
+  "starting_equity": 100000,
+  "execution": {
+    "fill": "next_open",
+    "qty": 1
+  },
+  "strategy": {
+    "name": "sma_crossover",
+    "fast": 10,
+    "slow": 20
+  }
+}
